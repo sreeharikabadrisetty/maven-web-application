@@ -10,6 +10,7 @@ git branch: 'development', credentialsId: '8348f8f0-25de-414b-be0c-6b5259e01762'
     stage('Build'){
         sh "${mavenHome}/bin/mvn clean package"
     }
+    /*
     
     stage('ExecuteSonarQubeReport'){
         sh "${mavenHome}/bin/mvn clean sonar:sonar"
@@ -23,4 +24,5 @@ git branch: 'development', credentialsId: '8348f8f0-25de-414b-be0c-6b5259e01762'
     // some block
 }
     }
+    */
 }//node closing
